@@ -305,7 +305,7 @@ class CI_Session {
 
 		$params['match_ip'] = (bool) (isset($params['match_ip']) ? $params['match_ip'] : config_item('sess_match_ip'));
 
-		isset($params['save_path']) OR $params['save_path'] = config_item('sess_save_path');
+		isset($params['']) OR $params[''] = config_item('sess_save_path');
 
 		$this->_config = $params;
 
